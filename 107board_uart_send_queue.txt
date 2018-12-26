@@ -1,0 +1,53 @@
+Configuration	107board_uart_send_queue
+STM32CubeMX 	4.27.0
+Date	12/26/2018
+MCU	STM32F107VCTx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	OSC_IN
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	OSC_OUT
+SYS	No Debug	SYS_VS_ND	VP_SYS_VS_ND
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+USART1	Asynchronous	USART1_RX	PA10
+USART1	Asynchronous	USART1_TX	PA9
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+12	OSC_IN	RCC_OSC_IN	
+13	OSC_OUT	RCC_OSC_OUT	
+68	PA9	USART1_TX	
+69	PA10	USART1_RX	
+83	PD2	GPIO_Output	LD1
+84	PD3	GPIO_Output	LD3
+85	PD4	GPIO_Output	LD4
+88	PD7	GPIO_Output	LD5
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : 107board_uart_send_queue
+Project Folder : E:\check\107board\107board_uart_send_queue\107board_uart_send_queue
+Toolchain / IDE : MDK-ARM V5
+Firmware Package Name and Version : STM32Cube FW_F1 V1.6.1
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
